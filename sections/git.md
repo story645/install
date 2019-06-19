@@ -39,7 +39,7 @@ https://git-scm.com/download/win
 
 ![textbox with browse button listing start menu folder options](../images/windows/git/git04.png)
 
-6. Choose the default editor used by Git. Select `Visual Studio Code` as the default editor. *Click* `Next`:
+6. Choose the default editor used by Git. Select `Visual Studio Code` as the default editor. (Note that you must [install `Visual Studio Code`](vscode.md) first before you can move forward past this step of the Git install.) *Click* `Next`:
 
 ![installation menu containing drop down of editor options: nano, vim, notepad++, visual studio code, visual studio code insiders](../images/windows/git/git06.png)
 
@@ -58,12 +58,13 @@ https://git-scm.com/download/win
 11. On the 'configuring the terminal emulator to use with Git Bash' window, choose the "Use Windows default console window" option:
 
 ![two radio buttons: 1) Use MinTTY, 2) use Windows default console window](../images/windows/git/git10.png)
+Note: Do not choose "Use MinTTY (the default terminal of MSYS2)" as that MinTTY wil break Python. 
 
 12. Configure the extra options (the defaults are fine). *Click* `Next`:
 
 ![check boxes: 1) enable file system caching, 2) enable git credential manager, 3) enable symbolic links](../images/windows/git/git11.png)
 
-13. VSCode should now be installing:
+13. Git should now be installing:
  
  ![image of progress bar](../images/windows/git/git12.png)
 
@@ -95,3 +96,31 @@ usage: git [--version] [--help] [-C <path>] [-c name=value]
 
 
 ```
+## Updating an earlier development version of Git (that is already installed) 
+
+Check which development version of Git is currently installed on the computer:  
+
+1. Open a [windows](windows_terminal.md) or [OS/X](osx_terminal.md) terminal. 
+
+2. Type the following into the terminal:
+```bash 
+git --version
+ ```
+
+Check for the most recent development version of Git on their website [here](https://git-scm.com/downloads). As of December 2018, the most recent development version of Git is 2.19.2. 
+
+To update a computer that already has an earlier development version: 
+
+Open [the Git website downloads page](https://git-scm.com/downloads) in a browser and follow the posted download instructions according to the computer type: Mac, Linux/Unix, or Windows.  
+
+Then, check that the new development version of Git is now installed:
+
+1. Close, and re-open a [windows](windows_terminal.md) or [OS/X](osx_terminal.md) terminal. 
+
+2. Type the following into the terminal:
+```bash 
+git --version
+ ```
+ 
+
+

@@ -3,7 +3,7 @@ A text editor is a simple notepad type application. For the DRI, we will be usin
 
 ## Install
 Download VSCode at https://code.visualstudio.com/ 
-* [OS/X instructions](#os/x)
+* [OS/X instructions](#osx)
 * [Windows instructions](#windows)
 
 ### Windows

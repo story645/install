@@ -1,7 +1,9 @@
+# Using Jupyter Notebook
+
 The [Jupyter](http://jupyter.org/) notebook is an open source semi language agnostic programming development environment aimed at simplifiying the creation and sharing of documents that contain live code, figures, and explanatory text. The Jupyter package is installed by default as part of the [Anaconda](python.md) environment and can be updated using the [conda](conda.md) package management system. 
 
 ## Executing Code in a Notebook
-1. To open a jupyer notebook, first open a [windows](windows_terminal.md) or [OSX](osx_terminal.md) terminal. 
+1. To open a jupyter notebook, first open a [windows](windows_terminal.md) or [OSX](osx_terminal.md) terminal. 
 
 2. Via the command line, navigate to the folder in which  you would like to open the notebook. 
 

@@ -1,39 +1,10 @@
- [Anaconda](https://www.anaconda.com/download/) is a distribution of Python. It provides a Python programming environment, the [Jupyter notebook environment](https://github.com/DHRI-Curriculum/install/blob/master/sections/jupyter.md), and the [conda](conda.md) package management system. 
+ [Anaconda](https://www.anaconda.com/download/) is a distribution of Python. It provides a Python programming environment, the Jupyter notebook environment, and the [conda](conda.md) package management system. 
 
-# Choose the appropriate option and follow the instructions:
-
-## I don't know if I have Anaconda installed on my computer
-* Try to open the Anaconda Prompt (On Mac, press Cmd + Space and type `Anaconda`. On Windows, press the Windows key and type Anaconda). If no option comes up, you most likely don't have it installed.
-
-## I do have Anaconda installed on my computer
-* [Updating Anaconda to the newest version](#updating-anaconda)
-
-## I don't have Anaconda installed on my computer
 * [Installation Windows](#installation-windows)
 * [Installation macOS](#installation-macos)
 
-# Updating Anaconda (Mac or Windows)
-
-If you have Anaconda installed, chances are that you need to update to the most recent version. So let's go ahead and do it.
-
-First, let's check the most recent version of Anaconda available. Go to the [Anaconda Download Page](https://www.anaconda.com/download/). 
-
-Under "Download Anaconda Distribution" you should be able to see the current version.
-
-Now it is time to check what version you have installed in your computer. Open the Anaconda Prompt (On Mac, press Cmd + Space and type `Anaconda`. On Windows, press the Windows key and type Anaconda), type `conda --version` and press enter. If the output has the same version as the one on the website, you are good to go!
-
-If you need to update your version, the easiest way is also on the Anaconda Prompt:
-
-* Type `conda update -n root conda` and press Enter.
-* Type Y for yes and press Enter when asked.
-* Wait for the process to finish. It takes some time.
-
-* When the process finishes, type `conda update --all` and press Enter
-* Type Y for yes and press enter when asked.
-* Wait for the process to finish. This should take even longer, so go grab a cup of coffee.
-* After it is finished, type `conda --version` and press Enter. The output should be the same version as the one in the webpage.
-
 # Installation Windows 
+
 
 ## Download Python 3.+: 
 
@@ -67,7 +38,7 @@ If you need to update your version, the easiest way is also on the Anaconda Prom
 
 ![text box with path for default Anaconda install and browse button ](../images/windows/anaconda/anaconda05.png)
 
-6. On the Advanced Installation Options page, select **both boxes**: "Add Anaconda to my PATH environment variable" and "Register Anaconda as my default Python". Then *click* `Next`: 
+6. On the Advanced Installation Options page, select **both check boxes**: "Add Anaconda to my PATH environment variable" and "Register Anaconda as my default Python". Then *click* `Next`: 
 
 ![advanced installation options window. Has two check boxes: Add anaconda to PATH environment variables, and `Register Anaconda as my default Python`](../images/windows/anaconda/anaconda06.png)
 
@@ -79,7 +50,7 @@ If you need to update your version, the easiest way is also on the Anaconda Prom
 
 9. *Click* `Install Microsoft VSCode`. If it is already installed, *click* `Skip`:
 
-![menu option to also install vscode](../images/windows/anaconda/anaconda08.png)
+![menu option to also install vscode](../images/windows/anaconda/anaconda8.png)
 
 10. This is the final window. You can uncheck all the boxes and *Click* `Finish`:
 
@@ -87,7 +58,7 @@ If you need to update your version, the easiest way is also on the Anaconda Prom
 
 ## Test
 
-Open a [windows terminal](windows_terminal.md) and type `python`. The terminal should print something like:
+Open a [windows](windows_terminal.md) and type `python`. The terminal should print something like:
 
     ```python
     Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)] on win32
